@@ -7841,7 +7841,7 @@ PrefabInstance:
     - target: {fileID: 3678740073296620655, guid: 300e2b24de2dc1646836ea2db0df644c,
         type: 3}
       propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Nivel 2
+      value: Nivel 3
       objectReference: {fileID: 0}
     - target: {fileID: 4159820823430209665, guid: 300e2b24de2dc1646836ea2db0df644c,
         type: 3}
@@ -18245,6 +18245,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6163248316605555465, guid: 29003ed552df2984c90e8f150c3ce25d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Nivel 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6704635517427404779, guid: 29003ed552df2984c90e8f150c3ce25d,
         type: 3}
       propertyPath: m_Name
@@ -19605,12 +19610,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1136649267}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1145507626 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6681484130180524392, guid: 162687f0a4692ab46b288f4bd39d6992,
+--- !u!114 &1145507628 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9047451924010184166, guid: 162687f0a4692ab46b288f4bd39d6992,
     type: 3}
   m_PrefabInstance: {fileID: 1216880465}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efef06076abf504892410340575f6a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1152884334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1826930944315196, guid: eb922b604640a9340a7eb733e5bada36,
@@ -28290,7 +28301,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555181039}
-  m_LocalRotation: {x: 0.24071704, y: 0.66487235, z: -0.24071698, w: 0.6648725}
+  m_LocalRotation: {x: 0.24071705, y: 0.6648724, z: -0.24071698, w: 0.66487247}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -28559,11 +28570,11 @@ PrefabInstance:
         type: 3}
       propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1145507626}
+      objectReference: {fileID: 1145507628}
     - target: {fileID: 2261226252752071725, guid: 3e43dccb0057c2b49a73687fd301014d,
         type: 3}
       propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: ContarElementos
       objectReference: {fileID: 0}
     - target: {fileID: 6445809366819526191, guid: 3e43dccb0057c2b49a73687fd301014d,
         type: 3}
